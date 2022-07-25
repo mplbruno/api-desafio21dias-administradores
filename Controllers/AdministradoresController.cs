@@ -93,7 +93,7 @@ namespace api_desafio21dias.Controllers
         // POST: /administradores
         [HttpPost]
         [Route("/administradores")]
-        [Authorize(Roles = "administrador")]
+        //[Authorize(Roles = "administrador")]
         public async Task<IActionResult> Create(Administrador administrador)
         {
             if (ModelState.IsValid)

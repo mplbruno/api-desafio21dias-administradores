@@ -40,7 +40,7 @@ namespace api_desafio21dias
                                 builder =>
                                 {
                                     builder.WithOrigins("http://localhost:4200",
-                                                        "https://localhost:5009", 
+                                                        "https://avanadeclientside.azurewebsites.net", 
                                                         "https://www.torneseumprogramador.com.br")
                                                         .AllowAnyHeader()
                                                         .AllowAnyMethod();
